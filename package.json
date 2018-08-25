@@ -1,0 +1,45 @@
+{
+  "name": "pinha",
+  "version": "0.0.1",
+  "description": "Simple server framework",
+  "main": "index.js",
+  "repository": "git@github.com:articulate/pinha.git",
+  "author": "Leonardo Elias @leonardoelias_",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node demo/index.js",
+    "start:watch": "nodemon -w . demo/index.js",
+    "test": "mocha --reporter dot",
+    "test:watch": "yarn run test -- -w"
+  },
+  "dependencies": {
+    "boom": "^5.1.0",
+    "cookie": "^0.3.1",
+    "etag": "^1.7.0",
+    "media-typer": "^0.3.0",
+    "path-match": "^1.2.4",
+    "qs": "^6.3.0",
+    "ramda": "^0.23.0",
+    "raw-body": "^2.2.0",
+    "send": "^0.16.0",
+    "type-is": "^1.6.14"
+  },
+  "devDependencies": {
+    "@articulate/spy": "^0.0.1",
+    "chai": "^3.5.0",
+    "eslint": "^4.18.2",
+    "http-errors": "^1.6.1",
+    "joi": "^10.2.0",
+    "levelup": "^1.3.3",
+    "memdown": "^1.2.4",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.11.0",
+    "string-to-stream": "^1.1.0",
+    "supertest": "^3.0.0"
+  }
+}

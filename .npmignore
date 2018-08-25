@@ -1,0 +1,9 @@
+node_modules
+test
+
+.DS_Store
+.env
+.jshintrc
+.jshintignore
+*.log
+yarn.lock
