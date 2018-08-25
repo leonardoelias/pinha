@@ -1,7 +1,7 @@
 <div align="center">
   [![Pinha](./.github/logo.png)](http://devparana.org)
   Simple node.js server framework, plug and play.
-</p>
+</div>
 
 ## Motivation
 
